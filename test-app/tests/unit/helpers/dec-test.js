@@ -1,4 +1,4 @@
-import { dec } from 'test-app/helpers/dec';
+import { dec } from 'ember-composable-helpers/helpers/dec';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | dec', function() {

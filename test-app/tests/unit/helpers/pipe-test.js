@@ -1,5 +1,5 @@
 import { reject, resolve } from 'rsvp';
-import { pipe } from 'test-app/helpers/pipe';
+import { pipe } from 'ember-composable-helpers/helpers/pipe';
 import { module, test } from 'qunit';
 import sinon from 'sinon';
 

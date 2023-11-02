@@ -1,4 +1,4 @@
-import { without } from 'test-app/helpers/without';
+import { without } from 'ember-composable-helpers/helpers/without';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | without', function() {

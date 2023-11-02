@@ -1,6 +1,6 @@
 import { A } from '@ember/array';
 import { resolve } from 'rsvp';
-import { invoke } from 'test-app/helpers/invoke';
+import { invoke } from 'ember-composable-helpers/helpers/invoke';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | invoke', function() {

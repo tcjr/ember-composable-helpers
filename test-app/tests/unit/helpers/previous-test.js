@@ -1,4 +1,4 @@
-import { previous } from 'test-app/helpers/previous';
+import { previous } from 'ember-composable-helpers/helpers/previous';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | previous', function() {

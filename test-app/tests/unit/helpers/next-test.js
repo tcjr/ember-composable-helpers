@@ -1,4 +1,4 @@
-import { next } from 'test-app/helpers/next';
+import { next } from 'ember-composable-helpers/helpers/next';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | next', function() {

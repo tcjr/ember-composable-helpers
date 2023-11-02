@@ -1,4 +1,4 @@
-import { flatten } from 'test-app/helpers/flatten';
+import { flatten } from 'ember-composable-helpers/helpers/flatten';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | flatten', function() {

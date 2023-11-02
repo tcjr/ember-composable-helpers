@@ -1,4 +1,4 @@
-import { range } from 'test-app/helpers/range';
+import { range } from 'ember-composable-helpers/helpers/range';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | range', function() {

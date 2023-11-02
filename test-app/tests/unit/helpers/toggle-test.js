@@ -1,5 +1,5 @@
 import { get } from '@ember/object';
-import { toggle } from 'test-app/helpers/toggle';
+import { toggle } from 'ember-composable-helpers/helpers/toggle';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | toggle', function() {

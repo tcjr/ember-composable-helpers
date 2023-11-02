@@ -1,4 +1,4 @@
-import { inc } from 'test-app/helpers/inc';
+import { inc } from 'ember-composable-helpers/helpers/inc';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | inc', function() {

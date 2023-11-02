@@ -1,5 +1,5 @@
 import { reject, resolve } from 'rsvp';
-import { queue } from 'test-app/helpers/queue';
+import { queue } from 'ember-composable-helpers/helpers/queue';
 import { module, test } from 'qunit';
 import sinon from 'sinon';
 

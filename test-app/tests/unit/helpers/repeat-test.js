@@ -1,4 +1,4 @@
-import { repeat } from 'test-app/helpers/repeat';
+import { repeat } from 'ember-composable-helpers/helpers/repeat';
 import { module, test } from 'qunit';
 
 module('Unit | Helper | repeat', function() {
