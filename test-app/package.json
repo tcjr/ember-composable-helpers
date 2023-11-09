@@ -11,7 +11,7 @@
     "lint:js": "eslint . --cache",
     "lint:js:fix": "eslint . --fix",
     "start": "ember serve",
-    "test": "concurrently \"npm:lint\" \"npm:test:*\" --names \"lint,test:\"",
+    "test": "concurrently \"npm:test:*\" --names \"test:\"",
     "test:ember": "ember test"
   },
   "bugs": "https://github.com/DockYard/ember-composable-helpers/issues",
