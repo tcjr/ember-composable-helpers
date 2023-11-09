@@ -15,7 +15,7 @@ module('Integration | Helper | {{pipe-action}}', function (hooks) {
 
     await render(hbs`
       {{#let (pipe-action this.add this.square this.squareRoot) as |calculate|}}
-        <button {{on "click" (fn calculate 2 4)}}>
+        <button type="button" {{on "click" (fn calculate 2 4)}}>
           Calculate
         </button>
       {{/let}}
