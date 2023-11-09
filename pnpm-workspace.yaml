@@ -1,0 +1,3 @@
+packages:
+  - 'ember-composable-helpers'
+  - 'test-app'
