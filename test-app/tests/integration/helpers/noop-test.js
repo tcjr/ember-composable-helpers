@@ -8,7 +8,9 @@ module('Integration | Helper | {{noop}}', function (hooks) {
 
   test('It successfully renders and does nothing when clicked', async function (assert) {
     assert.expect(0);
-    await render(hbs`<button onclick={{action (noop)}} type="button"></button> `);
+    await render(
+      hbs`<button onclick={{action (noop)}} type="button"></button> `
+    );
     await click('button');
   });
 });

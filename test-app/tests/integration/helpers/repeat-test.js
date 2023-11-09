@@ -8,6 +8,7 @@ module('Integration | Helper | {{repeat}}', function (hooks) {
 
   test('it repeats `n` times', async function (assert) {
     await render(hbs`
+      {{!-- template-lint-disable no-unused-block-params --}}
       {{~#each (repeat 3) as |empty|~}}
         1
       {{~/each~}}
