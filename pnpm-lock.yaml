@@ -145,7 +145,7 @@ importers:
         specifier: ^4.0.2
         version: 4.0.2
       ember-composable-helpers:
-        specifier: 5.0.0
+        specifier: workspace:*
         version: link:../ember-composable-helpers
       ember-data:
         specifier: ^4.4.0
