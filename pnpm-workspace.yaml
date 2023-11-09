@@ -1,3 +1,4 @@
 packages:
   - 'ember-composable-helpers'
   - 'test-app'
+  - 'polaris-test-app'
