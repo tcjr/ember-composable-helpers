@@ -3,14 +3,16 @@
   "version": "5.0.0",
   "description": "Composable helpers for Ember",
   "scripts": {
-    "build": "ember build",
+    "build": "ember build --environment=production",
+    "lint": "concurrently \"npm:lint:*(!fix)\" --names \"lint:\"",
+    "lint:fix": "concurrently \"npm:lint:*:fix\" --names \"fix:\"",
     "lint:hbs": "ember-template-lint .",
-    "lint:js": "eslint .",
+    "lint:hbs:fix": "ember-template-lint . --fix",
+    "lint:js": "eslint . --cache",
+    "lint:js:fix": "eslint . --fix",
     "start": "ember serve",
-    "test": "ember test",
-    "node-test": "mocha test --recursive --reporter spec",
-    "test:all": "ember try:each",
-    "contributors": "npx contributor-faces -e \"(*-bot|*\\[bot\\]|*-tomster|homu|bors)\""
+    "test": "concurrently \"npm:lint\" \"npm:test:*\" --names \"lint,test:\"",
+    "test:ember": "ember test"
   },
   "bugs": "https://github.com/DockYard/ember-composable-helpers/issues",
   "homepage": "https://github.com/DockYard/ember-composable-helpers",
