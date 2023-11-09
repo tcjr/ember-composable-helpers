@@ -1,4 +1,3 @@
-import { get } from '@ember/object';
 import { toggle } from 'ember-composable-helpers/helpers/toggle';
 import { module, test } from 'qunit';
 
