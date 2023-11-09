@@ -12,5 +12,4 @@ export default function startApp(attrs) {
     application.injectTestHelpers();
     return application;
   });
-
 }

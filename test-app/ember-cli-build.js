@@ -10,7 +10,7 @@ module.exports = function (defaults) {
       watchDependencies: ['ember-composable-helpers'],
     },
   });
-  
+
   // eslint-disable-next-line node/no-unpublished-require
   const { maybeEmbroider } = require('@embroider/test-setup');
 
