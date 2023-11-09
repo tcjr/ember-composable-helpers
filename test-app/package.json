@@ -52,12 +52,15 @@
     "ember-resolver": "^10.0.0",
     "ember-sinon": "^3.0.0",
     "ember-source": "~4.12.0",
-    "ember-source-channel-url": "^2.0.1",
+    "ember-source-channel-url": "^3.0.0",
     "ember-template-lint": "^5.7.2",
     "ember-try": "^3.0.0",
     "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-ember": "^11.5.0",
     "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-qunit": "^7.3.4",
     "loader.js": "^4.7.0",
     "mocha": "^2.4.5",
     "qunit": "^2.19.4",
@@ -66,7 +69,7 @@
     "stylelint-config-standard": "^32.0.0",
     "stylelint-prettier": "^3.0.0",
     "tracked-built-ins": "^3.1.1",
-    "webpack": "^5.78.0"
+    "webpack": "^5.88.2"
   },
   "keywords": [
     "helpers",
