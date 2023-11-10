@@ -252,6 +252,9 @@ importers:
       ember-cli-inject-live-reload:
         specifier: ^2.1.0
         version: 2.1.0
+      ember-composable-helpers:
+        specifier: workspace:*
+        version: link:../ember-composable-helpers
       ember-data:
         specifier: ~5.3.0
         version: 5.3.0(@babel/core@7.23.3)(@ember/string@3.1.1)(@glimmer/tracking@1.1.2)(@glint/template@1.2.1)(ember-source@5.4.0)
